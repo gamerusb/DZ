@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Work Sans', sans-serif;   
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+    background-color: #fff;
+    margin-bottom: 0;
+    
+
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.header_logo{
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+
+}
+h1, h2, h3, h4{
+    margin: 0;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+p{
+    margin: 0 0 10px;
+}
+.header{    
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: flex-end;
+}
+
+h1{
+    text-transform: uppercase;
+}
+.nav_link{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .80;
+    transition: opacity .1s;
+    margin-bottom: 0;
+
+}
+.nav_link:first-child{
+    margin-left: 0;
+}
+
+.nav_link:hover{
+    color: #fff ;
+    opacity: 1;
+}
+.nav_link_home{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .90;
+    transition: opacity .1s;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.nav_link_home:hover{
+    color: #fff ;
+    opacity: 1;
+}
+
+
+.nav{
+
+    font-weight: 500;
+ 
+}
+
+/* Шапка картинки
+=========================*/
+
+.intro{
+    height: calc(100vh);
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../dy/img/hero_1.jpg) center center no-repeat;
+    transform: translate(0);
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+.intro__inner{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+.intro_title{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 71px;
+    padding-bottom: 50px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: blue;
+    padding: 10px 30px ;
+    border-radius: 30px;
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+ }
+
+
+
+
+.button a:hover{
+    background: #000;
+    border-color: #000;
+    color: #fff; }
